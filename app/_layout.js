@@ -9,7 +9,7 @@ export default function RootLayout() {
         options={{
           title: "ToDo",
           tabBarIcon: ({ size, color }) => (
-            <Ionicons name="list-circle" size={32} color={color} />
+            <Ionicons name="list-circle" size={28} color={color} />
           ),
           tabBarLabelStyle: {
             fontSize: 12,
@@ -22,7 +22,7 @@ export default function RootLayout() {
         options={{
           title: "Settings",
           tabBarIcon: ({ size, color }) => (
-            <Ionicons name="settings" size={32} color={color} />
+            <Ionicons name="settings" size={28} color={color} />
           ),
           tabBarLabelStyle: {
             fontSize: 12,
